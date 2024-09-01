@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="images/logo.png">
+    <title>AngularMovies</title>
+</head>
+<body>
+  <h1 id="myh" class="mytitle">Now Playing Movies</h1>
+    <form action="" method="get" class="btn">
+      <input id="byWord" type="search" placeholder="get movies by word" name="text">
+      <input id="byRate" type="search" placeholder="search by rate">
+    </form>
+  <section id="mydiv">
+  </section>
+    <ul>
+      <li onclick="getMovies('now_playing')">Now Playing</li>
+      <li onclick="getMovies('top_rated')">Top Rated</li>
+      <li onclick="getMovies('upcoming')">Up Coming</li>
+      <li onclick="getMovies('popular')">Popular</li>
+    </ul>
+  <script src="js/main.js"></script>
+</body>
+</html>
