@@ -1,7 +1,6 @@
 # Movie_API_Project
-<ul><h2>Demo</h2>
-    <li>https://mohammedelsisi21.github.io/Movie_API_Project/</li>
-</ul>
+<h2>Demo</h2>
+<p>https://mohammedelsisi21.github.io/Movie_API_Project/</p>
 
 <h2>Project Description</h2>
 <p>This project is a movie discovery application that dynamically updates with the latest films. It is built using a robust API that automatically refreshes content with newly released movies.</p>
